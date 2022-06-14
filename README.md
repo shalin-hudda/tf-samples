@@ -55,5 +55,5 @@ gcloud container clusters get-credentials autopilot-cluster --region northameric
 kubectl apply -f ./deployment/nginx.yaml -n default
 ```
 # Notes
-Created this for fun but ideally it would have more docs, inputs and outputs documented in readme for each document. 
+Created this for fun but ideally it would have more docs, inputs and outputs documented in readme for each module. 
 I'd also have more abstractions to each module to make it highly configurable and reusable 
