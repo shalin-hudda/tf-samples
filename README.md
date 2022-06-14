@@ -6,7 +6,7 @@
 5. Regional cluster
 
 
-# Cloud SQL assumptions
+# CloudSQL assumptions
 1. Standard means: n1-standard-1
 2. Regional DB in northamerica-northeast1
 3. Private DB with service networking and encryption
