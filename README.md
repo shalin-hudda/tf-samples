@@ -54,3 +54,6 @@ CREATE TABLE mysqldb.user( id int, last_name varchar(255), first_name varchar(25
 gcloud container clusters get-credentials autopilot-cluster --region northamerica-northeast1 --project capstone-wifi-lab-f20f10
 kubectl apply -f ./deployment/nginx.yaml -n default
 ```
+# Notes
+Created this for fun but ideally it would have more docs, inputs and outputs documented in readme for each document. 
+I'd also have more abstractions to each module to make it highly configurable and reusable 
