@@ -1,10 +1,10 @@
-gcp_project_id = "capstone-wifi-lab-f20f10"
+gcp_project_id = "capstone-wifi-lab"
 
 region = "northamerica-northeast1"
 
 zone = "northamerica-northeast1-a"
 
-vpc_network = "projects/capstone-wifi-lab-f20f10/global/networks/wifi-lab-network"
+vpc_network = "projects/capstone-wifi-lab/global/networks/wifi-lab-network"
 
 subnetwork = "wifi-lab-network"
 
@@ -14,7 +14,7 @@ cluster_labels = {
     "autopilot_cluster" = "true"
 }
 
-cloudsql_instance_name = "mymymysql"
+cloudsql_instance_name = "mysql"
 
 cloudsql_db_name = "mysqldb"
 
