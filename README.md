@@ -51,7 +51,7 @@ mysql -u $USER -p$PASSWORD --host 127.0.0.1
 CREATE TABLE mysqldb.user( id int, last_name varchar(255), first_name varchar(255), email varchar(255) );
 
 # Back to bash
-gcloud container clusters get-credentials autopilot-cluster --region northamerica-northeast1 --project capstone-wifi-lab-f20f10
+gcloud container clusters get-credentials autopilot-cluster --region northamerica-northeast1 --project capstone-wifi-lab
 kubectl apply -f ./deployment/nginx.yaml -n default
 ```
 # Notes
